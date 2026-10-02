@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        // Replace these with your three original vehicles
+      
         Vehicle v1 = new Vehicle("Toyota", "Corolla", 2015);
         Vehicle v2 = new Vehicle("Ford", "Mustang", 1965);
         Vehicle v3 = new Vehicle("Honda", "Civic", 1998);
