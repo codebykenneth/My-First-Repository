@@ -17,6 +17,11 @@ public class Truck extends Vehicle {
     }
 
     @Override
+    public void move() {
+        System.out.println(getBrand() + " " + getModel() + " (Truck) moves on " + wheels + " wheels, hauling heavy cargo.");
+    }
+
+    @Override
     public void displayInfo() {
         super.displayInfo();
         System.out.println("Type: Truck, Wheels: " + wheels + ", Cargo Capacity: " + cargoCapacityTons + " tons");

@@ -26,6 +26,11 @@ public class Vehicle {
         System.out.println(brand + " " + model + ": engine starts.");
     }
 
+    // Runtime (dynamic) polymorphism: each vehicle moves in its own way
+    public void move() {
+        System.out.println(brand + " " + model + " moves.");
+    }
+
     public void displayInfo() {
         System.out.println("Brand: " + brand + ", Model: " + model + ", Year: " + year);
     }

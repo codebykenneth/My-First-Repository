@@ -12,6 +12,11 @@ public class Car extends Vehicle {
     }
 
     @Override
+    public void move() {
+        System.out.println(getBrand() + " " + getModel() + " (Car) moves on four wheels along the road.");
+    }
+
+    @Override
     public void displayInfo() {
         super.displayInfo();
         System.out.println("Type: Car, Doors: " + doors);

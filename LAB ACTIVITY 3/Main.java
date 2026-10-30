@@ -2,7 +2,6 @@ public class Main {
     public static void main(String[] args) {
         Vehicle car = new Car("Toyota", "Corolla", 2015, 4);
         Vehicle motorcycle = new Motorcycle("Honda", "CB500", 2020, 500);
-
         Vehicle truck = new Truck("Isuzu", "Giga", 2018, 12.5);
 
         Vehicle[] vehicles = {car, motorcycle, truck};
@@ -11,6 +10,7 @@ public class Main {
         for (Vehicle v : vehicles) {
             v.displayInfo();
             v.startEngine();
+            v.move();
             System.out.println();
         }
 

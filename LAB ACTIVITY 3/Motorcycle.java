@@ -12,6 +12,11 @@ public class Motorcycle extends Vehicle {
     }
 
     @Override
+    public void move() {
+        System.out.println(getBrand() + " " + getModel() + " (Motorcycle) moves on two wheels, leaning into the curves.");
+    }
+
+    @Override
     public void displayInfo() {
         super.displayInfo();
         System.out.println("Type: Motorcycle, Engine: " + engineCC + " cc");
