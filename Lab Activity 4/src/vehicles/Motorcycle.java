@@ -1,3 +1,7 @@
+package vehicles;
+
+import contracts.Serviceable;
+
 public class Motorcycle extends Vehicle implements Serviceable {
     private int engineCC;
 

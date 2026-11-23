@@ -1,3 +1,7 @@
+package vehicles;
+
+import contracts.Serviceable;
+
 public class Truck extends Vehicle implements Serviceable {
     private double cargoCapacityTons;
     private int wheels = 6;
