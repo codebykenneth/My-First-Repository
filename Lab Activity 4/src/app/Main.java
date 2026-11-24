@@ -36,6 +36,10 @@ public class Main {
         for (Vehicle v : vehicles) {
             v.displayInfo();
             v.move();
+            v.moveForward();
+            v.turnLeft();
+            v.turnRight();
+            v.moveReverse();
             System.out.println();
         }
     }

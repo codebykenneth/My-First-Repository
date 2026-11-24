@@ -29,4 +29,12 @@ public abstract class Vehicle {
 
     // Abstract: every subclass must provide its own version
     public abstract void move();
+
+    public abstract void moveForward();
+
+    public abstract void moveReverse();
+
+    public abstract void turnLeft();
+
+    public abstract void turnRight();
 }
